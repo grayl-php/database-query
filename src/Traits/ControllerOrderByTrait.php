@@ -8,18 +8,11 @@
     * Trait ControllerOrderByTrait.
     * The controller trait for working with OrderBy fields.
     *
+    * @property QueryData $query_data The QueryData instance to work with.
     * @package Grayl\Database\Query
     */
    trait ControllerOrderByTrait
    {
-
-      /**
-       * The QueryData instance to work with.
-       *
-       * @var QueryData
-       */
-      protected QueryData $query_data;
-
 
       /**
        * Adds multiple order by fields using a passed array.
