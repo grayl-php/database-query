@@ -8,18 +8,11 @@
     * Trait ControllerLimitTrait.
     * The controller trait for working with limit fields.
     *
+    * @property QueryData $query_data The QueryData instance to work with.
     * @package Grayl\Database\Query
     */
    trait ControllerLimitTrait
    {
-
-      /**
-       * The QueryData instance to work with.
-       *
-       * @var QueryData
-       */
-      protected QueryData $query_data;
-
 
       /**
        * Sets the query results limit.

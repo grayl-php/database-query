@@ -9,18 +9,11 @@
     * Trait ControllerWhereTrait.
     * The controller trait for working with WhereClause entities.
     *
+    * @property QueryData $query_data The QueryData instance to work with.
     * @package Grayl\Database\Query
     */
    trait ControllerWhereTrait
    {
-
-      /**
-       * The QueryData instance to work with.
-       *
-       * @var QueryData
-       */
-      protected QueryData $query_data;
-
 
       /**
        * Returns a new WhereClause entity.
